@@ -11,7 +11,7 @@ Na primeira função ele faz a conversão das moedas com um taxa de 10% cobrado 
 Salva a operação no BD para poder visualizar no futuro.
 Tem 3 Moedas como valores já definidos
 
-Na segunda função ele Faz um Busca completa no BD pela data da compra ou nome do comprador.
+Na segunda função ele Faz uma Busca completa no BD pela data da compra ou nome do comprador.
 
 Como Executar:
 Rode a primeira vez com as Linhas 10,11,12,13 e 14 para que o programa crie a Tabela.
