@@ -1,0 +1,29 @@
+Seja bem vindo!
+
+Conversor simples de moeda em python com consulta em SQLLITE3
+
+Instalação:
+Python 3.9 pode ser baixado no site https://www.python.org/downloads/
+Recomendo a utilização do PyCharm para edição pode ser baixado no site https://www.jetbrains.com/pt-br/pycharm/download/#section=windows
+
+Como funciona:
+Na primeira função ele faz a conversão das moedas com um taxa de 10% cobrado pela Instituição.
+Salva a operação no BD para poder visualizar no futuro.
+Tem 3 Moedas como valores já definidos
+
+Na segunda função ele Faz um Busca completa no BD pela data da compra ou nome do comprador.
+
+Como Executar:
+Rode a primeira vez com as Linhas 10,11,12,13 e 14 para que o programa crie a Tabela.
+Na segunda vez que rodar o programa comente as linhas 10,11,12,13 e 14 para evitar de apresentar erro. (só adicionar # antes das linhas)
+Ele deve ficar assim:
+#cursor.execute("""CREATE TABLE mundomoeda
+#                (operador text, data real, cliente text,
+#                 moeda_de_origem text, moeda_de_destino text, valor_orginal text,
+#                 valor_convertido text, taxa_cobrada text)
+#                 """)
+
+Após isso só utilizar normalmente o programa.
+
+Créditos
+https://github.com/Alvesx3
